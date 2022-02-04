@@ -20,14 +20,14 @@ img {
 
 header {
     box-sizing: border-box;
-    background: url('/media/final project.jpg');
+    background-image: url("../media/final\ project.jpg");
     height: 250px;
     width: 100%;
-    background-size: auto;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-nav > a {
+.navlink {
     color: black;
     text-decoration: none;
     padding-top: 25px;
@@ -40,7 +40,7 @@ nav > a {
     border-radius: 5px;
 }
 
-nav > a:hover {
+.navlink:hover {
     background-color: rgb(255, 255, 255, 1);
 }
 
@@ -68,7 +68,6 @@ table, th, td {
 
 table {
     width: 55%;
-    height: 
 }
 
 ul {
@@ -79,7 +78,7 @@ float: left;
     margin-bottom: 0%;
 }
 
-.current {
+#current {
     background-color: rgb(255, 255, 255, 1);
 }
 
